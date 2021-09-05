@@ -2,10 +2,30 @@
 <resources>
     <string name="app_name">TMA</string>
     <string name="first">አዲስ አበባ ትራፊክ ማኔጅመንት ኤጀንሲ</string>
-    <string name="welcome">እንኳን በ ደህና ወደ አዲስ አበባ ትራፊክ ማኔጅመንት ኤጀንሲ መቱ</string>
+    <string name="welcome">እንኳን በ ደህና ወደ አዲስ አበባ ትራፊክ ማኔጅመንት ኤጀንሲ መጡ</string>
     <string name="name">ስም</string>
     <string name="password">የይለፍ ቃል</string>
     <string name="Signin">ግባ</string>
     <string name="lang">ቋንቋ</string>
 
+    <string name="text_accounts">ሁሉም መለያዎች</string>
+    <string name="hint_name">ስም</string>
+    <string name="hint_email">ኢሜል</string>
+    <string name="hint_password">የይለፍቃል</string>
+    <string name="hint_confirm_password">የይለፍ ቃል አረጋግጥ</string>
+    <string name="text_login">ግባ</string>
+    <string name="text_register">ይመዝገቡ</string>
+    <string name="error_message_name">ሙሉ ስም ያስገቡ</string>
+    <string name="error_message_email">የሚሰራ ኢሜል ያስገቡ</string>
+    <string name="error_message_age">ዕድሜ ያስገቡ</string>
+    <string name="error_message_password">የይለፍ ቃል ያስገቡ</string>
+    <string name="success_message">ምዝገባ ተሳክቷል</string>
+    <string name="text_not_member">እስካሁን መለያ የለም? አንድ ይፍጠሩ</string>
+    <string name="text_already_member">ቀድሞውኑ አባል ነዎት? ግባ</string>
+    <string name="error_email_exists">ኢሜል ቀድሞውኑ አለ</string>
+    <string name="error_password_match">የይለፍ ቃል አይዛመድም</string>
+    <string name="error_valid_email_password">የተሳሳተ ኢሜል ወይም የይለፍ ቃል</string>
+    <string name="action_settings">ቅንብሮች</string>
+    <string name="text_hello">ሰላም,</string>
+    <string name="text_title">አዲስ አበባ ትራፊክ ማኔጅመንት ኤጀንሲ</string>
 </resources>

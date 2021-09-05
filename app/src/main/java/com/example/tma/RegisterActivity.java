@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -40,6 +41,22 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         initViews();
         initListeners();
         initObjects();
+
+        ImageButton am = findViewById(R.id.btnam);
+        ImageButton en = findViewById(R.id.btnen);
+
+        ChangeLanguage lang = new ChangeLanguage(this);
+        am.setOnClickListener(view ->
+        {
+            lang.updateResource("am");
+            recreate();
+        });
+
+        en.setOnClickListener(view ->
+        {
+            lang.updateResource("en");
+            recreate();
+        });
     }
 
     private void initViews() {

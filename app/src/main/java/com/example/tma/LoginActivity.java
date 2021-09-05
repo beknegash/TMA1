@@ -119,6 +119,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         }
         if (!inputValidation.isInputEditTextFilled(textInputEditTextPassword, textInputLayoutPassword, getString(R.string.error_message_email))) {
             return;
+
         }
         if (databaseHelper.checkUser(textInputEditTextEmail.getText().toString().trim()
                 , textInputEditTextPassword.getText().toString().trim())) {
